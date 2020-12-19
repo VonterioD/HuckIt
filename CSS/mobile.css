@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nav */
+#main-nav {
+    height: 80px;
+}
+
+#main-nav ul{
+    padding-top: 5px;
+}
+
+#main-nav .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+/* Gallery */
+
+.flex-row {
+    flex-direction:column;
+    height: auto;
+}
+
+.flex-row .flex-column {
+    flex: 100%;
+    max-width: 100%;
+}
+
+.flex-container {
+    flex-direction: column;
+}
+
+
+
