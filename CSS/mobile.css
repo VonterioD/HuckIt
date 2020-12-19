@@ -20,8 +20,17 @@
     width: 100%;    
 }
 
-/* Gallery */
+#main-nav .container ul li {
+    margin-right: 25px;
 
+}
+
+#main-nav .container ul{
+    margin-left: 20px;
+}
+
+
+/* Gallery */
 .flex-row {
     flex-direction:column;
     height: auto;
@@ -34,6 +43,16 @@
 
 .flex-container {
     flex-direction: column;
+}
+
+#video-selection {
+    flex-direction: column;
+    height: auto;
+}
+
+#video-selection img {
+    max-width: 100%;
+    margin: 10px 10px;
 }
 
 
