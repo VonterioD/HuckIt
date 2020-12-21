@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/findclub.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./CSS/mobile.css">
     <title>Find A Club</title>
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav id="main-nav">
+        <div class="container">
+            <h2>Huck It!</h2>
+            <ul class="grid-item">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./watch.html">Watch</a></li>
+                <li><a href="#" class="current">Play</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <section id="form-container">
+        <h2>Let Us Help You Get On The Field ASAP!</h2>
+        <form action="" id="contact-form">
+            <div class="contact-div">
+                <label for="form-fname">First Name</label>
+                <input type="text" placeholder="Enter First Name" id="form-fname">
+            </div>
+            <div class="contact-div">
+                <label for="form-lname">Last Name</label>
+                <input type="text" placeholder="Enter Last Name" id="form-lname">
+            </div>
+            <div class="contact-div">
+                <label for="form-email">E-Mail</label>
+                <input type="" placeholder="Enter E-Mail Address" id="form-email">
+            </div>
+            <input type="submit" value="Submit" id="submit-button">
+        </form>
+    </section>
+
+    <script src="./js/form.js"></script>
 </body>
 </html>
