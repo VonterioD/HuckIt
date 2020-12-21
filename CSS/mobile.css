@@ -1,11 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-/* Nav */
+/* Nav - all pages */
 #main-nav {
     height: 80px;
 }
@@ -30,7 +23,7 @@
 }
 
 
-/* Gallery */
+/* Gallery - Home page */
 .flex-row {
     flex-direction:column;
     height: auto;
@@ -55,5 +48,17 @@
     margin: 10px 10px;
 }
 
+/* Rule Container - Learn page */
+.rule-container {
+    flex-direction: column;  
+}
 
+#fix img {
+    padding-top: 15px;
+}
+
+.rule-container > img,
+.rule-container:nth-of-type(odd) .rule {
+    width: 100%;
+}
 
